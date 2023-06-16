@@ -87,8 +87,9 @@ body{
 .box form .inputBox input{
     position: relative;
     width: 100%;
-    padding: 20px 10px 10px;
-    background: transparent;
+    padding: 20px 15px 10px;
+    background: white;
+    border-radius: 5px;
     outline: none;
     border: none;
     box-shadow: none;
@@ -113,8 +114,8 @@ body{
 .box form .inputBox input:valid ~ span,
 .box form .inputBox input:focus ~ span {
     color: #D2AA42;
-    font-size: 0.75em;
-    transform: translateY(-34px);
+    font-size: 0.80em;
+    transform: translateY(-40px);
 }
 
 .box form .inputBox i {
